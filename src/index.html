@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="pl">
+
+<script type="module" src='index.js'></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+</head>
+
+<body>
+
+  <div id="password-page">
+    <h2>Wprowadź mleczne hasło</h2>
+
+    <p>
+    <label for="name-input">Imię i Nazwisko </label><input type="text" id="name-input" placeholder="Imię i Nazwisko"/>
+    <p>
+    <label for="password-input">Hasło </label><input type="number" id="password-input" placeholder="Wpisz hasło"/>
+    <p>
+    <button id="submit-button">Sprawdź</button>
+    <p id="password-error"></p>
+  </div>
+
+  <div id="congrats-page" style="display:none;">
+    <h2>Gratulacje!</h2>
+    <p>Udało ci się ukończyć grę terenową. Mleczki są szczęśliwe i tańczą wokół ogniska. Maćki przygrywają im na mandolinie.</p>
+
+    <div id="content-to-capture" style="position: relative; width: 210mm; height: 297mm;">
+      <img src="img/cert.jpg" style="width: 100%; height: 100%;">
+
+      <div style="position: absolute; top: 126mm; left: 50%; transform: translate(-50%, 0); width: 100%; text-align: center;">
+        <p id="content-name" style="font-size: 10mm;">Your Text Here</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
